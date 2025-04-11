@@ -45,7 +45,7 @@ const Home = () => {
 
 	return (
 		<div className="container text-center">
-			<form onSubmit={addItem} className="mt-5">
+			<form onSubmit={addItem} className="mt-5 mb-2">
 				<input type="text" value={text} onChange={(e)=>setText(e.target.value)} placeholder="What needs to be done?" className="form-text form-control form-control-lg"/>
 				<input type="submit" value="" hidden/>
 			</form>
